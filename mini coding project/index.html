@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Katik</title>
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+
+<body>
+    <header><span class="title">Katik </span><span class="subtitle">Kalkulator Matematik</span></header>
+    <main>
+        <div class="card">
+            <div>
+                <p class="p1"> Welcome to Katik</p>
+                <p class="p2">Hai Sobat, Selamat Datang di Katik</p>
+                <p class="p2">Sebuah web apps sederhana yang berfugsi menghitung nilai luas dan keliling bangun datar</p>
+                <p class="bangun-datar">Luas Persegi</p>
+            </div>
+            <img src="asset/persegi.jpg" class="img alt=" persegi ">
+            <p class="bujursangkar ">Bujur Sangkar</p>
+            <div class="formula-description ">
+                <p>Rumus Luas Persegi yaitu:</p>
+                <p class="persegi ">L = S x S</p>
+
+                <p>Dimana:</p>
+                <p>L = Luas</p>
+                <p>S = Sisi</p>
+                <hr>
+            </div>
+            <div>
+                <p class="p1 ">Hitung Luas Persegi</p>
+                    <input id="sisi-luas " name="sisi-luas " required/>
+
+                    <p id="rumus-luas "></p>
+                    <p id="perhitungan-luas "></p>
+                    <p id="output_luas "></p>
+
+            <button name="hitung-luas " onclick=" luas() ">Hitung</button>
+            <button name="reset-luas ">Reset</button>
+        </div>
+        </div>
+
+        <div class="card ">
+            <div>
+                <p class="bangun-datar ">Keliling Persegi</p>
+            </div>
+            <img src="asset/persegi.jpg " class="img " alt=" persegi ">
+            <p class="bujursangkar ">Bujur Sangkar</p>
+            <div class="formula-description ">
+                <p>Rumus Keliling Persegi yaitu:</p>
+                <p class="persegi ">K = 4 x S</p>
+
+                <p>Dimana:</p>
+                <p>K = Keliling</p>
+                <p>S = Sisi</p>
+                <hr>
+            </div>
+            <div>
+                <p class="p1 ">Hitung Keliling Persegi</p>
+                <input id="sisi-keliling " name="sisi-keliling " required/>
+
+                <p id="rumus-keliling "></p>
+                <p id="perhitungan-keliling "></p>
+                <p id="output_keliling " name="output-keliling "></p>
+
+                <button name="hitung-keliling " onclick=" keliling() ">Hitung</button>
+                <button name="reset-keliling ">Reset</button>
+
+            </div>
+    </main>
+
+    <footer>
+
+    </footer>
+
+
+
+    <script src="js/script.js "></script>
+</body>
+
+</html>

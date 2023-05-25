@@ -1,0 +1,79 @@
+body {
+    background: #d3d3d39c;
+}
+
+header {
+    background: #03bbf7;
+    text-align: center;
+    padding: 15px 15px;
+}
+
+.p1 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 15px 15px;
+}
+
+.p2 {
+    text-align: center;
+}
+
+.bangun-datar {
+    background: #03bbf7;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 10px 10px;
+}
+
+.img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px;
+    height: 150px;
+}
+
+.bujursangkar {
+    text-align: center;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 5px;
+}
+
+.title {
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+}
+
+span.subtitle {
+    font-size: 40px;
+    color: #e4e4e4;
+}
+
+.figure {
+    min-height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    background: white;
+}
+
+.example-square {
+    border: 1px solid red;
+    height: 20px;
+    width: 20px;
+}
+
+.persegi {
+    text-align: center;
+}
